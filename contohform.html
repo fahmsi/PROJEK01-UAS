@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pemesanan Barang</title>
+  </head>
+  <body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background: #ddd">
+    <table align="center" style="background-color: #fff; margin-top: 15px; margin-bottom: 15px; border: 1px solid">
+      <tr>
+        <td style="border-right: 1px solid; padding: 0 60px">Home</td>
+        <td style="border-right: 1px solid; padding: 0 60px">Generate Link</td>
+        <td style="border-right: 1px solid; padding: 0 60px">Transaction History</td>
+        <td style="border-right: 1px solid; padding: 0 60px">Policy</td>
+        <td style="padding: 0 60px">Logout</td>
+      </tr>
+    </table>
+
+    <form action="https://lizlogan.github.io/week3/payment_011012273_Muhammad_Dihya_Ramdhan.html" method="get">
+      <table border="1" align="center" cellpadding="10" style="width: 980px">
+        <tbody>
+          <tr>
+            <td rowspan="9" width="270">
+              <img src="img/macbook.jpg" width="270" alt="ini photo" style="border: 2px solid #000" /> <br />
+              <button style="background-color: #fff; color: #000; padding: 3px 15px; border: 2px solid #000; border-radius: 1px; cursor: pointer; box-shadow: rgba(0, 0, 0, 0.4) 2.5px 2.5px 2.6px; margin-bottom: 225px">
+                Upload Picture
+              </button>
+            </td>
+            <td width="160px">Title Here :</td>
+            <td><input type="text" name="nama barang" /></td>
+          </tr>
+          <tr>
+            <td>Description :</td>
+            <td><textarea name="deskripsi" cols="30" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td>Account Number :</td>
+            <td><input type="number" name="nomor akun" /></td>
+          </tr>
+          <tr>
+            <td>Bank :</td>
+            <td>
+              <select>
+                <option>HSBC</option>
+                <option>HSBC1</option>
+                <option>HSBC2</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Account Holder :</td>
+            <td><input type="text" name="pemegang akung" placeholder="Name Here" /></td>
+          </tr>
+          <tr>
+            <td>Transaction :</td>
+            <td>
+              <input type="number" name="transaksi" min="0" max="10" placeholder="0" /> <br />* if the transaction is for 3 person, choose 3 from the drop-down list <br />
+              <input type="checkbox" name="check" /> Send to Mobile Phone <br />
+              <input type="checkbox" name="check" /> Send to Email
+            </td>
+          </tr>
+          <tr>
+            <td>Send to Mobile Phone :</td>
+            <td><input type="number" name="nomor telepon" /></td>
+          </tr>
+          <tr>
+            <td>Send to Email :</td>
+            <td><input type="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input
+                type="submit"
+                value="Generate Nabr Link "
+                style="background-color: #009d0e; color: white; font-weight: bold; padding: 3px 15px; border: 2px solid #000; border-radius: 1px; cursor: pointer; box-shadow: rgba(0, 0, 0, 0.4) 2.5px 2.5px 2.6px"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
