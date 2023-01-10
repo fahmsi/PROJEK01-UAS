@@ -153,6 +153,8 @@ input:focus {
     margin-top: 2rem;
     margin-bottom: 3rem;
     color: #fff;
+    text-align: center;
+    text-decoration: none;
 }
 
 #signUp {
