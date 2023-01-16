@@ -149,7 +149,7 @@ input:focus {
     border-radius: 0.8rem;
     cursor: pointer;
     padding: 0.7rem 0.8rem;
-    background: linear-gradient(to right, #8d68c5, #e34494);
+    background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
     margin-top: 2rem;
     margin-bottom: 3rem;
     color: #fff;
