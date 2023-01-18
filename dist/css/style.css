@@ -16,12 +16,13 @@ body {
 }
 
 .container {
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem 3rem;
-    border-radius: .5rem;
+    background-color: #ffffff;
+    position: relative;
+    width:30%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .container form {
@@ -69,6 +70,9 @@ input:focus {
     bottom: 17rem;
     color: rgb(113, 119, 124);
     font-size: .8rem;
+}
+.forgotPassword:hover{
+    color: #08AEEA;
 }
 
 .inputDiv {
@@ -160,8 +164,10 @@ input:focus {
 #signUp {
     font-size: 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #signUp:hover {
     color: #8d68c5;
+    text-decoration: none;
 }

@@ -26,7 +26,7 @@ body {
 .btn {
     outline: none;
     border: none;
-    background: linear-gradient(to right, #8d68c5, #e34494);
+    background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
     color: black;
     font-size: 20px;
     padding: 1rem 4rem;
@@ -74,7 +74,7 @@ p {
     cursor: pointer;
     color: rgb(77, 0, 0);
 
-    background-color: rgb(245, 73, 73);
+    background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
 }
 
 #close:hover {
