@@ -1,0 +1,22 @@
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 18px;
+}
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 30px;
+}
+header {
+  height: 100vh;
+  min-height: 400px;
+  background-size: cover;
+}
+.bg-dark {
+  background: #62a392 !important;
+}
+/*media Query*/
+@media only screen and (max-width: 600px) {
+  .navbar-collapse {
+    background: #62a392;
+  }
+}
