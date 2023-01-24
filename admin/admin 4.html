@@ -10,7 +10,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="../admin/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="../https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bootstrap 4 -->
   <link rel="stylesheet" href="../admin/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
@@ -25,13 +25,10 @@
   <link rel="stylesheet" href="../admin/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="../admin/plugins/summernote/summernote-bs4.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" >
-
+  <!-- admin 2 css -->
+  <link rel="stylesheet" href="../admin/dist/css/puki.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
-  <!-- sc bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <div class="wrapper">
 
   <!-- Preloader -->
@@ -88,7 +85,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="../admin/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
@@ -184,7 +181,8 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-            <img src="../admin/dist/img/profile.png" class="img-circle elevation-2" alt="User Image">
+          <!-- gua coba ubah foto nya -->
+            <img src="../../PEMWEB1/P02_FAHMI_SI07/asset/image/profile.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
             <a href="#" class="d-block">Min Ter</a>
@@ -208,7 +206,15 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="admin 3.html" class="nav-link active">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-solid fa-user"></i>
+              <p>
+                Montir/Mekanik
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-list"></i>
               <p>
                 Transaksi
@@ -216,18 +222,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="admin 1.html" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tools"></i>
               <p>
                 Layanan Servis
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="admin 2.html" class="nav-link">
-              <i class="nav-icon fas fa-solid fa-user"></i>
-              <p>
-                Montir/Mekanik
               </p>
             </a>
           </li>
@@ -251,7 +249,7 @@
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Home</a></li> 
                 <li class="breadcrumb-item"><a href="#">Admin</a></li>
-                <li class="breadcrumb-item active">Transaksi</li>
+                <li class="breadcrumb-item active">Layanan Servis</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -261,227 +259,45 @@
 
     <!-- Main content -->
     <section class="content">
-        <h1 align="center">E-BENGKEL HUNTER</h1>
-  <hr>
-      <!-- navbar and judul -->
-      <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3>
-                            Daftar Transaksi
-                        </h3><br>
-                        <button type="button" class="btn active btn-outline-primary">
-                            Tambah +
-                        </button><br><br><br>
-                        <table class="table table-striped table-hover table-sm">
-                            <thead>
-                                <tr>
-                                    <th>
-                                        #
-                                    </th>
-                                    <th>
-                                        Tanggal
-                                    </th>
-                                    <th>
-                                        Nama Customer
-                                    </th>
-                                    <th>
-                                        Kategori
-                                    </th>
-                                    <th>
-                                      Layanan
-                                    </th>
-                                    <th>
-                                      Action
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        1
-                                    </td>
-                                    <td>
-                                        01/23/2021
-                                    </td>
-                                    <td>
-                                        Jackson
-                                    </td>
-                                    <td>
-                                        Minibus
-                                    </td>
-                                    <td>
-                                      Ganti Oli
-                                    </td>
-                                    <td>
-                                      Done
-                                    </td>
-                                </tr>
-                                <tr class="table-active">
-                                    <td>
-                                        2
-                                    </td>
-                                    <td>
-                                        12/10/2022
-                                    </td>
-                                    <td>
-                                        Devibella
-                                    </td>
-                                    <td>
-                                        Sedan
-                                    </td>
-                                    <td>
-                                      Ganti ban
-                                    </td>
-                                    <td>
-                                      On Progress
-                                    </td>
-                                </tr>
-                                <tr class="table-success">
-                                    <td>
-                                        3
-                                    </td>
-                                    <td>
-                                        16/01/2022
-                                    </td>
-                                    <td>
-                                        Moana
-                                    </td>
-                                    <td>
-                                        Minibus
-                                    </td>
-                                    <td>
-                                        Body Repair
-                                    </td>
-                                    <td>
-                                        Pending
-                                    </td>
-                                </tr>
-                                <tr class="table-warning">
-                                    <td>
-                                        4
-                                    </td>
-                                    <td>
-                                        28/07/2022
-                                    </td>
-                                    <td>
-                                        Mambaa
-                                    </td>
-                                    <td>
-                                        MPV
-                                    </td>
-                                    <td>
-                                        Cek Mesin
-                                    </td>
-                                    <td>
-                                        Done
-                                    </td>
-                                </tr>
-                                <tr class="table-danger">
-                                    <td>
-                                        5
-                                    </td>
-                                    <td>
-                                        23/09/2022
-                                    </td>
-                                    <td>
-                                        Agus Yudho
-                                    </td>
-                                    <td>
-                                        Sedan
-                                    </td>
-                                    <td>
-                                        Cek Radiator
-                                    </td>
-                                    <td>
-                                        On Progress
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+      <h1 align="center">E-BENGKEL HUNTER</h1>
+<hr>
+    <!-- navbar and judul -->
+      <div class="main">
+        <div class="container">
+          <div class="imag"></div>
+          <div class="text-container">
+            <h1>Jarot bin jarjit</h1>
+            <p>
+              dengan pengalaman dan ijazah terbaik langsung dari jepun kami akan memberikan layanan servis terbaik 
+              <div class="credit">Made with <span style="color:tomato;font-size:20px;">❤</span> by <a  href="https://www.learningrobo.com/">Learning Robo</a></div>
+            </p>
+          </div>
         </div>
-    </div>
+      </div>
+     <!-- gua copy -->
+      <!-- navbar and judul -->
+      <div class="main">
+        <div class="container">
+          <div class="imag"></div>
+          <div class="text-container">
+            <h1>Learning Robo</h1>
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure deserunt quas esse ex deleniti ab quisquam officiis, non enim cupiditate. Asperiores nobis dolorum voluptatum. Eum tenetur provident suscipit assumenda veniam.
+              <div class="credit">Made with <span style="color:tomato;font-size:20px;">❤</span> by <a  href="https://www.learningrobo.com/">Learning Robo</a></div>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <div class="container my-5">
-      <footer class="bg-light text-center text-white">
-          <!-- Grid container -->
-          <div class="container p-4 pb-0">
-              <!-- Section: Social media -->
-              <section class="mb-4">
-                      <!-- Facebook -->
-                      <a
-                          class="btn btn-primary btn-floating m-1"
-                          style="background-color: #3b5998;"
-                          href="#!"
-                          role="button"
-                          ><i class="fab fa-facebook-f"></i
-                      ></a>
-
-                  <!-- Twitter -->
-                  <a
-                      class="btn btn-primary btn-floating m-1"
-                      style="background-color: #55acee;"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-twitter"></i
-                  ></a>
-
-                  <!-- Google -->
-                  <a
-                      class="btn btn-primary btn-floating m-1"
-                      style="background-color: #dd4b39;"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-google"></i
-                  ></a>
-
-                  <!-- Instagram -->
-                  <a
-                      class="btn btn-primary btn-floating m-1"
-                      style="background-color: #ac2bac;"
-                      href="https://www.instagram.com/!"
-                      role="button"
-                      ><i class="fab fa-instagram"></i
-                  ></a>
-
-                  <!-- Linkedin -->
-                  <a
-                      class="btn btn-primary btn-floating m-1"
-                      style="background-color: #0082ca;"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                  <!-- Github -->
-                  <a
-                      class="btn btn-primary btn-floating m-1"
-                      style="background-color: #333333;"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-github"></i
-                  ></a>
-              </section>
-              <!-- Section: Social media -->
-          </div>
-          <!-- Grid container -->
-
-          <!-- Copyright -->
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2023 Copyright:
-              <a class="text-white" href="https://mdbootstrap.com/">Project UAS</a>
-          </div>
-          <!-- Copyright -->
-      </footer>
-  </div>
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.2.0
+    </div>
   </footer>
 
   <!-- Control Sidebar -->
@@ -508,11 +324,11 @@
 <script src="../admin/plugins/sparklines/sparkline.js"></script>
 <!-- JQVMap -->
 <script src="../admin/plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src=../admin/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<script src="../admin/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
 <!-- jQuery Knob Chart -->
 <script src="../admin/plugins/jquery-knob/jquery.knob.min.js"></script>
 <!-- daterangepicker -->
-<script src=../admin/plugins/moment/moment.min.js"></script>
+<script src="../admin/plugins/moment/moment.min.js"></script>
 <script src="../admin/plugins/daterangepicker/daterangepicker.js"></script>
 <!-- Tempusdominus Bootstrap 4 -->
 <script src="../admin/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
