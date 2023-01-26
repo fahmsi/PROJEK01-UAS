@@ -27,10 +27,10 @@
 		      			<h3 class="mb-4 text-center">LOGIN ?</h3>
 						<form action="#" class="signin-form">
 							<div class="form-group">
-								<input type="text" id="username" class="form-control" placeholder="Username" required>
+								<input type="text" id="username" class="form-control" placeholder="admin" required>
 							</div>
 							<div class="form-group">
-								<input id="password" type="password" class="form-control" placeholder="Password" required>
+								<input id="password" type="password" class="form-control" placeholder="12345678" required>
 								<span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 							</div>
 							<div class="form-group">
@@ -76,7 +76,7 @@
                 return false;
             }
             else if(username == "admin" && password == "12345678"){
-                window.location = "web-profile.html/index.html"
+                window.location = "admin/navbar/popup.html"
                 return false;
             }
             else{
